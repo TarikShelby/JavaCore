@@ -2,9 +2,9 @@ package cycles;
 
 public class MyIF {
     public static void main(String[] args) {
-        int x =18 ;
+        int x = 18;
         if (x <= 18) {
-            System.out.println("Hello Andrei" );
+            System.out.println("Hello Andrei");
         } else {
             System.out.println("error 404");
         }
