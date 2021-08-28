@@ -8,8 +8,8 @@ public class Variables {
         long myLong = 123456789; // от -9223372036854775808 до 9223372036854775807 ,8 байтов памяти
         double myDouble = 321.213;
         float myFloat = 321.241f;
-        char A = 'a';
-        boolean True = true;
+        char a = 'a';
+        boolean bool = true;
         var myVar = 1243412433;// new variables
         //these are all variables
         myInt = 31;
@@ -18,8 +18,7 @@ public class Variables {
         }
         System.out.println(myByte);
         System.out.println(myDouble);
-        System.out.println(A);
-        System.out.println(True);
+        System.out.println(a);
+        System.out.println(bool);
     }
-
 }
