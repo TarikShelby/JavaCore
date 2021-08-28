@@ -25,5 +25,13 @@ public class MyIF {
         } else {
             System.out.println("kak poly4its9 ");
         }
+        int money = 25;
+        int age = 36;
+        if (money > 25 || age < 38) {
+            System.out.println("big age or money "); // || OR
+        } else {
+            System.out.println("Error 404");
+
+        }
     }
 }
