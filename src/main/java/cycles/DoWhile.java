@@ -15,9 +15,7 @@ public class DoWhile {
         do {
             System.out.println(" " + x);
             x++;
-        } while (x < 10);
+        } while (x < 1200);
     }
-
-
 }
 
