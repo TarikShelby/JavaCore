@@ -3,7 +3,7 @@ package ClassAndObject;
 public class Klass {
     public static void main(String[] args) {
         Animal dog = new Animal();
-        dog.name = "Peslik";
+        dog.setName(" Peslik ");
         dog.age = 5;
         dog.voice = "Gav";
         dog.color = "white";
@@ -27,6 +27,10 @@ public class Klass {
 
         void speak() {
             System.out.println(" " + name);
+        }
+
+        void setName(String username) {
+            name = username;
         }
 
         void br() {
