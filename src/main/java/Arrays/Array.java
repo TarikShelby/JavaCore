@@ -21,5 +21,13 @@ public class Array {
             sum += myArr[x];
         }
         System.out.println(sum);
+
+        String[] azbyka = new String[5];
+        azbyka[2] = "Hello";
+        azbyka[1] = "Mir";
+        azbyka[0] = "The End";
+        System.out.println(azbyka[2]);
+        System.out.println(azbyka[1]);
+        System.out.println(azbyka[0]);
     }
 }
