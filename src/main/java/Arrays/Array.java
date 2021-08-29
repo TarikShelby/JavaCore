@@ -29,5 +29,9 @@ public class Array {
         System.out.println(azbyka[2]);
         System.out.println(azbyka[1]);
         System.out.println(azbyka[0]);
+
+        for (String azbk : azbyka) { // for each первое тип дынных второе переменная 3-это масив через который он пройдет
+            System.out.println(azbk);
+        }
     }
 }
