@@ -1,4 +1,4 @@
-package ClassAndObject;
+package classAndObject;
 
 import static java.lang.Math.max;
 

@@ -1,4 +1,4 @@
-package ClassAndObject;
+package classAndObject;
 
 public class Klass {
     public static void main(String[] args) {
