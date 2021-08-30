@@ -5,7 +5,8 @@ public class MyFinal {
         final int congress = People.CONGRESS;
         //final = переманная которая не может изменятся и переписываться!"
         System.out.println(congress);
-
+        final int X = 10;
+        System.out.println(X);
     }
 
     class People {
