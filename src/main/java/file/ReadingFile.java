@@ -9,7 +9,7 @@ public class ReadingFile {
     public static void main(String[] args) throws IOException {
 
         try {
-            File x = new File("C:/sololearn/test.txt");
+            File x = new File("D:\\JavaProject\\JavaCora\\test.txt");
             Scanner scanner = new Scanner(x);
             while (scanner.hasNext()) {
                 System.out.println(scanner.next());
