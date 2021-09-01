@@ -14,7 +14,8 @@ public class FirstException {
                 Scanner scanner = new Scanner(file);
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
-                System.out.println("File не найден");
+                System.out.println("File не найден"); //Checked Exception = исключениее в работе программы
+                                                        //Unchecked = ошибка в работе программы (при запуске)
             }
         }
     }
